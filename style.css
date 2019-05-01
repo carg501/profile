@@ -1,0 +1,130 @@
+
+*{ padding:0
+
+  }
+
+body {
+
+  background-color: fafafa;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h1 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  line-height: 20px;
+  color: #008282;
+  margin: 10px;
+
+}
+
+h2 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 20px;
+  color: #008282;
+  margin: 10px;
+}
+
+
+a {
+
+  color: #008282;
+  text-decoration: none;
+  margin: 10px;
+
+}
+
+a:hover {
+  color: #008282;
+  text-decoration: italic;
+  font-weight: 900;
+
+}
+
+p {
+
+  width: 300px
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.card {
+  position: relative;
+  margin-top: 1px
+  background: white;
+  text-align: center;
+
+  border-radius: 85px 85px 85px 85px;
+  moz-border-radius: 85px 85px 85px 85px;
+  webkit-border-radius: 85px 85px 85px 85px;
+  border: 0px solid #000000;
+
+-webkit-box-shadow: 20px 16px 26px -37px rgba(0,130,130,0.85);
+-moz-box-shadow: 20px 16px 26px -37px rgba(0,130,130,0.85);
+box-shadow: 20px 16px 26px -37px rgba(0,130,130,0.85);
+}
+
+.image-round {
+  border-radius: 50%;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 20px
+
+}
+
+@media (max-width: 960px) {
+   .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+  width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+  width: 300px;
+  }
+}
+
+.padding-text {
+  padding:10px;
+
+}
+
+.text-wrap {
+  padding:20px 20px;
+  margin: 0px;
+  width: 300px
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+.second-card {
+  margin-top: 40px;
+
+}
